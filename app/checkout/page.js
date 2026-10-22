@@ -34,7 +34,7 @@ export default function CheckoutPage() {
   return (
     <div className="min-h-screen bg-white text-[#181818] font-sans">
       <header className="border-b border-[#e5e5e5] bg-white sticky top-0 z-30">
-        <div className="max-w-[1240px] mx-auto px-6 h-18 flex items-center justify-between">
+        <div className="w-full px-6 lg:px-8 xl:px-10 h-18 flex items-center justify-between">
           <Link
             href="/"
             className="text-2xl tracking-[0.2em] font-light uppercase text-black"
@@ -50,7 +50,7 @@ export default function CheckoutPage() {
         </div>
       </header>
 
-      <main className="max-w-[1240px] mx-auto px-6 py-10 lg:py-16">
+      <main className="w-full px-6 lg:px-8 xl:px-10 py-10 lg:py-16">
         {isPlaced ? (
           <OrderConfirmation />
         ) : (

@@ -14,7 +14,7 @@ export default function Newsletter() {
 
   return (
     <section className="w-full mb-8 sm:mb-12">
-      <div className="w-full px-0 min-[1440px]:max-w-[1560px] min-[1440px]:mx-auto min-[1440px]:px-8 xl:min-[1440px]:px-10">
+      <div className="w-full">
         <div className="w-full bg-[#f5f3ef] py-10 sm:py-14 lg:py-16 px-5 sm:px-10 lg:px-16 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 sm:gap-8">
           <div className="w-full lg:w-1/2">
             <h2 className="font-serif text-2xl sm:text-[32px] font-normal text-[#181818] leading-tight">

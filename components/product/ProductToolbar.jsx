@@ -9,7 +9,7 @@ export default function ProductToolbar() {
   return (
     <>
       <div className="w-full mt-6 sm:mt-8 mb-4 sm:mb-6">
-        <div className="max-w-[1560px] mx-auto px-6 lg:px-8 xl:px-10 flex items-center justify-between">
+        <div className="w-full px-6 lg:px-8 xl:px-10 flex items-center justify-between">
           <button
             type="button"
             onClick={() => setIsFilterOpen(true)}

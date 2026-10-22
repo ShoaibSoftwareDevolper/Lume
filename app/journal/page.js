@@ -28,7 +28,7 @@ export default function JournalPage() {
         </div>
       </section>
 
-      <section className="max-w-[1240px] mx-auto px-6 py-14 sm:py-20 flex-1">
+      <section className="w-full px-6 lg:px-8 xl:px-10 py-14 sm:py-20 flex-1">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12">
           {articlesData.map((article) => (
             <article

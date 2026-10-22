@@ -3,7 +3,7 @@ import { trustItems } from "@/data/trust";
 export default function TrustStrip() {
   return (
     <section className="w-full">
-      <div className="w-full px-0 min-[1440px]:max-w-[1560px] min-[1440px]:mx-auto min-[1440px]:px-8 xl:min-[1440px]:px-10">
+      <div className="w-full">
         <div className="w-full bg-[#f5f3ef] h-12 sm:h-14 lg:h-16 flex items-center overflow-hidden select-none">
           <div className="animate-marquee flex items-center">
             <div className="flex items-center gap-8 sm:gap-12 pr-8 sm:pr-12 shrink-0">
