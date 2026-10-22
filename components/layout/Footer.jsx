@@ -4,7 +4,7 @@ import { footerColumns, footerBrand } from "@/data/footer";
 export default function Footer() {
   return (
     <footer className="w-full bg-white">
-      <div className="max-w-[1560px] mx-auto px-6 lg:px-8 xl:px-10">
+      <div className="w-full px-6 lg:px-8 xl:px-10">
         <div className="w-full text-center my-8 sm:my-12">
           <h2 className="font-serif text-2xl sm:text-3xl lg:text-[32px] tracking-[0.14em] font-medium text-black uppercase">
             TIMELESS JEWELRY, CRAFTED WITH INTEGRITY

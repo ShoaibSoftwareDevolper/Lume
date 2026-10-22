@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <header className="w-full bg-white">
-      <div className="max-w-[1560px] mx-auto px-6 lg:px-8 xl:px-10 h-18 lg:h-[88px] flex items-center justify-between">
+      <div className="w-full px-6 lg:px-8 xl:px-10 h-18 lg:h-[88px] flex items-center justify-between">
         <div className="hidden lg:flex flex-1 items-center justify-start gap-4 xl:gap-5">
           {mainNavLinks.map((item) => (
             <Link

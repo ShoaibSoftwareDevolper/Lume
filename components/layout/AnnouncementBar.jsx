@@ -7,7 +7,7 @@ export default function AnnouncementBar() {
       aria-label="Announcement"
       className="w-full bg-[#181818] text-white text-[11px] sm:text-xs tracking-[0.08em] uppercase"
     >
-      <div className="max-w-[1560px] mx-auto px-6 lg:px-8 xl:px-10 h-10 sm:h-11 flex items-center justify-between font-sans">
+      <div className="w-full px-6 lg:px-8 xl:px-10 h-10 sm:h-11 flex items-center justify-between font-sans">
         <div className="truncate">
           <span>{announcementData.contactText} </span>
           <Link

@@ -27,7 +27,7 @@ export default function Pagination() {
   return (
     <nav
       aria-label="Pagination"
-      className="w-full max-w-[1560px] mx-auto px-6 lg:px-8 xl:px-10 flex items-center justify-center my-8 sm:my-12"
+      className="w-full px-6 lg:px-8 xl:px-10 flex items-center justify-center my-8 sm:my-12"
     >
       <div className="flex items-center gap-2 font-sans text-xs sm:text-[13px]">
         <button

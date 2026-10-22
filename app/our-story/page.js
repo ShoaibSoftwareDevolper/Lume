@@ -28,7 +28,7 @@ export default function OurStoryPage() {
         </div>
       </section>
 
-      <section className="max-w-[1240px] mx-auto px-6 py-16 sm:py-24">
+      <section className="w-full px-6 lg:px-8 xl:px-10 py-16 sm:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div>
             <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#737373] block mb-3">
