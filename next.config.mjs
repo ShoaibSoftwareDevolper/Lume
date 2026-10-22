@@ -1,6 +1,8 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  devIndicators: false,
+  images: {
+    formats: ["image/avif", "image/webp"],
+  },
   experimental: {
     agentFeedback: true,
   },
