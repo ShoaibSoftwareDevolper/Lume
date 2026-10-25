@@ -100,7 +100,7 @@ export default function ProductGrid() {
 
   return (
     <section className="w-full">
-      <div className="max-w-[1560px] mx-auto px-6 lg:px-8 xl:px-10">
+      <div className="w-full px-6 lg:px-8 xl:px-10">
         <div className="flex flex-col gap-y-5 sm:gap-y-7">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-[6px]">
             {row1.map((product) => (

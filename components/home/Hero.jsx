@@ -3,14 +3,14 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="w-full">
-      <div className="w-full px-0 min-[1440px]:max-w-[1560px] min-[1440px]:mx-auto min-[1440px]:px-8 xl:min-[1440px]:px-10">
+      <div className="w-full">
         <div className="relative w-full aspect-[2.27/1] max-h-[640px] overflow-hidden">
           <Image
             src="/images/hero/hero.webp"
             alt="Lume Fine Jewelry Collection"
             fill
             priority
-            sizes="(max-width: 1560px) 100vw, 1560px"
+            sizes="100vw"
             className="object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex flex-col justify-end p-6 sm:p-10 lg:p-14">
